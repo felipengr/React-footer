@@ -1,0 +1,130 @@
+body {
+  padding: 0;
+  margin: 0; }
+  body footer {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box; }
+    @media screen and (max-width: 673px) {
+      body footer {
+        height: 500px;
+        width: 100%;
+        display: inline-block;
+        position: absolute; } }
+    @media screen and (max-width: 673px) {
+      body footer .address {
+        margin-left: 20px;
+        margin-top: 20px; } }
+    body footer .address h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 27px;
+      color: #FFFFFF; }
+    body footer .address .traco {
+      border-top: 5px #fff solid;
+      margin: 0 auto;
+      width: 44.94px;
+      height: 0px;
+      margin-left: 0px;
+      margin-top: -9px;
+      margin-bottom: 16px; }
+    body footer .address p {
+      font-family: Nunito;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 12px; }
+      body footer .address p a {
+        text-decoration: none;
+        color: #fff; }
+    body footer .contact {
+      margin-left: 150px;
+      margin-right: 150px; }
+      @media screen and (max-width: 968px) {
+        body footer .contact {
+          margin-left: 0;
+          margin-right: 0; } }
+      @media screen and (max-width: 673px) {
+        body footer .contact {
+          margin-left: 0;
+          margin-right: 0;
+          margin-top: 39px;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center; } }
+      body footer .contact ul {
+        list-style-type: disc; }
+        @media screen and (max-width: 673px) {
+          body footer .contact ul {
+            margin-left: -25px; } }
+        body footer .contact ul li {
+          background-color: #fff;
+          margin-bottom: 25px;
+          border-radius: 5px;
+          width: 195px;
+          height: 38px;
+          text-align: center;
+          list-style-type: none;
+          display: list-item; }
+          body footer .contact ul li:last-child {
+            margin-bottom: 0; }
+          body footer .contact ul li #email {
+            position: absolute;
+            margin-left: -8px;
+            margin-top: 10px; }
+          body footer .contact ul li a {
+            text-transform: uppercase;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+            color: black;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none; }
+            body footer .contact ul li a:visited {
+              text-decoration: none; }
+            body footer .contact ul li a:hover {
+              text-decoration: none; }
+            body footer .contact ul li a:active {
+              text-decoration: none; }
+          body footer .contact ul li #text-contact {
+            position: relative;
+            top: 5px;
+            margin-left: 19px;
+            text-align: center; }
+          body footer .contact ul li #headphone {
+            position: absolute;
+            margin-left: 19px;
+            margin-top: 10px; }
+          body footer .contact ul li #text-chat {
+            position: relative;
+            top: 5px;
+            margin-left: 19px;
+            text-align: center; }
+    @media screen and (max-width: 673px) {
+      body footer .created {
+        margin-top: 24px;
+        margin-left: -25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; } }
+    body footer .created div {
+      display: inline-block;
+      margin-left: 20px; }
+    body footer .created p {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 10.6017px;
+      line-height: 14px;
+      margin: 0 auto; }
